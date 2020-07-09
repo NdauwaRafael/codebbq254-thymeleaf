@@ -23,18 +23,5 @@
     You failed the exam.
 </div>
 
-<h3>Thymeleaf Loop</h3>
-<table>
-    <tr>
-        <th>ID</th>
-        <th>Name</th>
-        <th>Age</th>
-    </tr>
-    <tr th:each="user : ${list}" >
-        <td th:text="${user.id}"></td>
-        <td th:text="${user.name}"></td>
-        <td th:text="${user.age}"></td>
-    </tr>
-</table>
 </body>
 </html>
